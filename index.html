@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Моё здоровье</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header__content">
+        <div class="header__logo">
+          <img src="img/logo.png" width="200" height="40" alt="Логотип Моё здоровье">
+        </div>
+        <ul class="header__navigation navigation">
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link">
+              О сервисе
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">
+              Функции
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">
+              Возможности
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">
+              Партнеры
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="header__button button">Оставить заявку</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Моё здоровье</h1>
+
+    <section class="slider">
+      <h2 class="visually-hidden">Слайдер</h2>
+
+      <input type="radio" class="visually-hidden slider__radio slider__radio--first" id="slider-first" name="slider-switcher" checked>
+      <label class="slider__switcher slider__switcher--first" for="slider-first"><span></span></label>
+
+      <input type="radio" class="visually-hidden slider__radio slider__radio--second" id="slider-second" name="slider-switcher">
+      <label class="slider__switcher slider__switcher--second" for="slider-second"><span></span></label>
+      
+      <article class="slider__item slider__item--first">
+        <div class="wrapper">
+          <h3 class="slider__title">
+            Расширяем возможности предоставления качественных медицинских услуг
+          </h3>
+          <p class="slider__text">
+            «Дневник здоровья» – новый сервис для самоконтроля показателей состояния здоровья, разработанный для
+            участников программы «Мое здоровье».
+          </p>
+          <a href="#" class="slider__button button">
+            Узнать больше
+          </a>
+        </div>
+      </article>
+      <article class="slider__item slider__item--second">
+        <div class="wrapper">
+          <h3 class="slider__title">
+            Следить за здоровьем станет проще
+          </h3>
+          <p class="slider__text">
+            Скоро вы сможете находиться на связи со своим лечащим врачом независимо от своего местоположения, вести
+            дневник мониторинга самочувствия, получать рекомендации по плану лечения и многое другое.
+          </p>
+          <a href="#" class="slider__button button">
+            Узнать больше
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrapper">
+        <div class="about__image">
+          <img src="img/about/mobile.png" width="335" height="652" alt="Мобильный телефон">
+        </div>
+        <div class="about__info">
+          <h2 class="about__heading">Что такое «Дневник здоровья»?</h2>
+          <p>Дневник пациента — это удобный онлайн-сервис:</p>
+          <ul class="about__list">
+            <li class="about__text">Вносите результаты измерений вручную или с помощью
+              интегрированных приборов</li>
+            <li class="about__text">Ведите персональную медицинскую карту с историей
+              ваших измерений </li>
+            <li class="about__text">Делитесь результатами измерений со специалистами
+              для повышения эффективности лечения</li>
+            <li class="about__text">Получайте рекомендации, созданные специально для вас</li>
+          </ul>
+          <a href="#" class="about__button button">Оставить заявку</a>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+
+</body>
+
+</html>
